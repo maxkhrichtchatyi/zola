@@ -32,7 +32,7 @@ jobs:
         with:
           registry: cr.yandex
           username: oauth
-          password: ${{ secrets.GITHUB_YANDEX_TOKEN }}
+          password: ${{ secrets.YANDEX_TOKEN }}
           #registry: ${{ env.REGISTRY }}
           #username: ${{ github.actor }}
           #password: ${{ secrets.GITHUB_TOKEN }}
